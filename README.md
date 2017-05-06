@@ -32,8 +32,8 @@ Problems
 	=> solution: create PaypalAdapter that holds a reference to Paypal, and implements API which the client expects
 * When we have a new payment: MoneyBooker. It has own payment method, called doPayment. Incompatible payment methods (APIs) between Paypal and MoneyBooker.
 
-Diagrams
+Solution
 --------------
-- Class diagram
+* Class Diagram
 
 ![alt text](https://github.com/vudph/AdapterPattern/blob/master/resources/AdapterPatternDiagram.png "Class Diagram")
